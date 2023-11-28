@@ -20,7 +20,8 @@ public class DateAndTimeMain {
 		LocalDate independence = LocalDate.of(1947, 8, 15);
 		System.out.println(independence);
 		
-		LocalDate nextDate = date.plusDays(6);
+//		LocalDate nextDate = date.plusDays(6);
+		LocalDate nextDate = date.plus(6, ChronoUnit.MONTHS);
 		System.out.println(nextDate);
 		
 	}
